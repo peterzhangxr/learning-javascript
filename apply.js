@@ -17,3 +17,8 @@ Function.prototype.apply2 = function(context, arr) {
   delete context.fn;
   return result;
 }
+
+
+var obj = {
+  name: 'peter'
+}

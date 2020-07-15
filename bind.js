@@ -32,7 +32,9 @@ var foo = {
 };
 
 function bar() {
-  return this.value;
+  this.name = 'peter'
+  console.log(this.name)
+  console.log(this.value)
 }
 
 var bindFoo = bar.bind(foo);

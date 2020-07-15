@@ -3,7 +3,9 @@
 //模拟call的实现
 Function.prototype.call2 = function(context) {
   context = context || this || window
+  console.log(context)
   context.fn = this
+  console.log(this)
   var args = [];
   for(var i = 1; i < arguments.length; i++) {
     args.push('arguments[' + i + ']')

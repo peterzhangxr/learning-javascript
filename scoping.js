@@ -1,3 +1,4 @@
+/*
 var value = 1;
 
 function foo() {
@@ -10,3 +11,9 @@ function bar() {
 }
 
 bar();
+*/
+
+{
+    console.log(b)
+    let b = 10;
+}
